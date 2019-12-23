@@ -1,12 +1,10 @@
 <template>
-    <div class="sign">
 
-    </div>
 </template>
 
 <script>
     export default {
-        name: "sign"
+        name: "cj-form.vue"
     }
 </script>
 

@@ -1,5 +1,8 @@
 
 import HelloWorld from '../components/HelloWorld';
+import Login from '../login/login';
+import Register from '../register/register';
+import User from '../user/user';
 
 export default {
   routeConfig:[
@@ -7,6 +10,16 @@ export default {
       path: '/HelloWorld',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     },
   ],
 
